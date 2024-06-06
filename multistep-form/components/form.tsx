@@ -49,8 +49,6 @@ export default function Form() {
 
   type FieldName = keyof Inputs;
 
-
-
   // navigating form
   const next = async () => {
     // when user clicks next step - i want validate input fields
