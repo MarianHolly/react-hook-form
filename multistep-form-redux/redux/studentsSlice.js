@@ -8,9 +8,16 @@ const initialState = {
 const studentsSlice = createSlice({
   name: "students",
   initialState,
-  reducers: {},
+  reducers: {
+    setCurrentStep: (state, action) => {
+      state.currentStep = action.payload;
+    },
+    updateFormData: (state) => {
+      state.formData = { ...state.formData, ...state.payload };
+    },
+  },
 });
 
-export const {} = studentsSlice.actions;
+export const { setCurrentStep, updateFormData } = studentsSlice.actions;
 
 export default studentsSlice.reducer;
