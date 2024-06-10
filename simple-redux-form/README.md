@@ -1,8 +1,5 @@
-# React + Vite
+## Building a Multi-Step Wizard Form with Next.js, Redux, and React Hook Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Image](./simple-redux-form.png)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[YouTube Tutorial](https://www.youtube.com/watch?v=ZF5Tv7ldJo4&t=2789s)
